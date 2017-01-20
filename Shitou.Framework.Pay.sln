@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shitou.Framework.Pay", "Shitou.Framework.Pay\Shitou.Framework.Pay.csproj", "{87E55F7E-EDB6-4A07-9AD2-A0BE7A625CDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shitou.Framework.PayDemp", "Shitou.Framework.PayDemp\Shitou.Framework.PayDemp.csproj", "{56CDD2DF-DBBF-4BE8-B87E-EC4E1AD0CCC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87E55F7E-EDB6-4A07-9AD2-A0BE7A625CDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E55F7E-EDB6-4A07-9AD2-A0BE7A625CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E55F7E-EDB6-4A07-9AD2-A0BE7A625CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E55F7E-EDB6-4A07-9AD2-A0BE7A625CDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56CDD2DF-DBBF-4BE8-B87E-EC4E1AD0CCC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56CDD2DF-DBBF-4BE8-B87E-EC4E1AD0CCC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56CDD2DF-DBBF-4BE8-B87E-EC4E1AD0CCC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56CDD2DF-DBBF-4BE8-B87E-EC4E1AD0CCC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
