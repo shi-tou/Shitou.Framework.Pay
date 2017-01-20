@@ -1,0 +1,12 @@
+﻿{
+  //应用ID-微信开放平台审核通过的应用APPID-示例:wxd678efh567hg6787
+  "AppID": "",
+  //商户号-微信支付分配的商户号-示例：1230000109
+  "Mch_ID": "",
+  //商户支付密钥，参考开户邮件设置（必须配置）
+  "Key": "",
+  //支付通知地址
+  "PayNotifyUrl": "http://xxx.com/api/Pay/WeixinPayNotify",
+  //退款通知地址
+  "RefundNotifyUrl": "http://xxx.com/api/Pay/WeixinRefundNotify"
+}

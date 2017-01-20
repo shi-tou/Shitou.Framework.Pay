@@ -1,0 +1,19 @@
+﻿{
+  //合作商户ID
+  "Partner": "",
+  //账户ID
+  "Seller": "",
+  //32位安全交易码
+  "Key": "",
+  //商户（RSA）私钥
+  "PrivateKey": "",
+  //支付宝（RSA）公钥
+  "PublicKey": "",
+  //支付通知地址
+  "PayNotifyUrl": "http://xxx.com/api/Pay/AlipayPayNotify",
+  //退款通知地址
+  "RefundNotifyUrl": "http://xxx.com/api/AlipayRefundNotify",
+  //创建app应用的ID
+  "AppID": ""
+}
+

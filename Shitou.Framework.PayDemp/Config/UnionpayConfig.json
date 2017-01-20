@@ -1,0 +1,22 @@
+﻿{
+  //签名证书路径
+  "SignCertPath": "/cert/PM_700000000000001_acp.pfx",
+  //签名证书密码-测试环境就是000000，生产自己修改
+  "SignCertPwd": "000000",
+  //验签证书目录，（验证时会扫描该目录的的.cer文件 ，用于获取证书）
+  "ValidateCertDir": "/cert/",
+  //加密公钥证书路径
+  "EncryptCert": "",
+  //有卡交易路径
+  "CardRequestUrl": "https://101.231.204.80:5000/gateway/api/cardTransReq.do",
+  //app交易路径
+  "AppRequestUrl": "https://101.231.204.80:5000/gateway/api/appTransReq.do",
+  //前台同步通知地址
+  "FrontTransUrl": "",
+  //后台异步通知地址
+  "BackTransUrl": "http://xxx.com/api/Pay/UnionpayPayNotify",
+  //退款通知地址
+  "RefundNotifyUrl": "http://xxx.com/api/Pay/UnionpayRefundNotify",
+  //商户代码
+  "MerId": ""
+}
